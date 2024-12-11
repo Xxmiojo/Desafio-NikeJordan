@@ -1,0 +1,37 @@
+/* SESSAO HEADER */
+header{
+    width: 100vw; 
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>p{
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* SESSÃO BANNER */
+#banner{
+    width: 100vw; /* PODEMOS USAR 100% OU VW*/
+    height: 400px;
+    background-image: url(../assets/images/image-michael-jordan.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* ACOMPANHA O TAMANHO DO MEU CONTAINER SECTION*/
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+}
+
+#banner>div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+#logo{
+    /* width: 147px; */
+    /* height: 26px; */
+}
